@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             binding.resultTextView.visibility = View.VISIBLE
 
             // view result BMI
-            binding.resultTextView.text = "${String.format("%.2f", bmi)} - your BMI"
+            binding.resultTextView.text = "${String.format("%.2f", bmi)} your BMI"
 
         }
 
